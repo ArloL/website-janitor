@@ -46,7 +46,7 @@ jobs:
           verify
         mkdir target/artifacts
         cp target/website-janitor-* target/artifacts
-    - uses: actions/upload-artifact@v2.2.1
+    - uses: actions/upload-artifact@v2.2.2
       with:
         name: website-janitor-${{ github.job }}-${{ needs.version.outputs.new_version }}
         path: target/artifacts
