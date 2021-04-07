@@ -32,7 +32,7 @@ jobs:
           verify
         mkdir target/artifacts
         cp target/website-janitor-* target/artifacts
-    - uses: actions/upload-artifact@v2.2.2
+    - uses: actions/upload-artifact@v2.2.3
       with:
         name: website-janitor-${{ github.job }}-${{ github.sha }}
         path: target/artifacts
