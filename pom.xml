@@ -15,10 +15,10 @@
 	<version>${revision}</version>
 
 	<scm>
-		<connection>scm:git:https://github.com/ArloL/website-janitor.git</connection>
-		<developerConnection>scm:git:https://github.com/ArloL/website-janitor.git</developerConnection>
+		<connection>scm:git:https://github.com/ArloL/website-janitor</connection>
+		<developerConnection>scm:git:https://github.com/ArloL/website-janitor</developerConnection>
 		<tag>${sha1}</tag>
-		<url>https://github.com/ArloL/website-janitor/</url>
+		<url>https://github.com/ArloL/website-janitor</url>
 	</scm>
 
 	<licenses>
